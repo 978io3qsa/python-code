@@ -1,0 +1,8 @@
+hosts:
+ - ip: 47.107.34.74
+   user: root
+   password: 1q2w3e$R%T
+   commands: 
+    - ls -l
+    - df -h
+    - ps aux

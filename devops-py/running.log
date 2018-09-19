@@ -1,0 +1,128 @@
+root@47.107.34.74's password: 1q2w3e$R%T
+
+Last login: Sun Sep 16 23:16:36 2018 from 116.30.214.64
+
+Welcome to Alibaba Cloud Elastic Compute Service !
+
+[root@weixin-go-server ~]# ls -l
+ls -l
+total 20
+drwxr-xr-x  5 root root 4096 Aug 29 16:17 go
+drwxr-xr-x 66 root root 4096 Aug 31 18:40 node_modules
+drwxr-xr-x  2 root root 4096 Sep 14 18:57 py-web
+drwxr-xr-x  2 root root 4096 Sep 10 19:22 software
+drwxr-xr-x  4 root root 4096 Sep  4 12:32 vanke
+[root@weixin-go-server ~]# df -h
+df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda1        40G  4.1G   34G  11% /
+devtmpfs        488M     0  488M   0% /dev
+tmpfs           497M     0  497M   0% /dev/shm
+tmpfs           497M  332K  496M   1% /run
+tmpfs           497M     0  497M   0% /sys/fs/cgroup
+tmpfs           100M     0  100M   0% /run/user/0
+[root@weixin-go-server ~]# ps aux
+ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.4 190708  4712 ?        Ss   Sep10   0:05 /usr/lib/system
+root         2  0.0  0.0      0     0 ?        S    Sep10   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Sep10   0:36 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Sep10   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Sep10   0:00 [migration/0]
+root         8  0.0  0.0      0     0 ?        S    Sep10   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        R    Sep10   1:32 [rcu_sched]
+root        10  0.0  0.0      0     0 ?        S    Sep10   0:04 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Sep10   0:00 [kdevtmpfs]
+root        13  0.0  0.0      0     0 ?        S<   Sep10   0:00 [netns]
+root        14  0.0  0.0      0     0 ?        S    Sep10   0:00 [khungtaskd]
+root        15  0.0  0.0      0     0 ?        S<   Sep10   0:00 [writeback]
+root        16  0.0  0.0      0     0 ?        S<   Sep10   0:00 [kintegrityd]
+root        17  0.0  0.0      0     0 ?        S<   Sep10   0:00 [bioset]
+root        18  0.0  0.0      0     0 ?        S<   Sep10   0:00 [kblockd]
+root        19  0.0  0.0      0     0 ?        S<   Sep10   0:00 [md]
+root        25  0.0  0.0      0     0 ?        S    Sep10   0:57 [kswapd0]
+root        26  0.0  0.0      0     0 ?        SN   Sep10   0:00 [ksmd]
+root        27  0.0  0.0      0     0 ?        SN   Sep10   0:01 [khugepaged]
+root        28  0.0  0.0      0     0 ?        S    Sep10   0:00 [fsnotify_mark]
+root        29  0.0  0.0      0     0 ?        S<   Sep10   0:00 [crypto]
+root        37  0.0  0.0      0     0 ?        S<   Sep10   0:00 [kthrotld]
+root        39  0.0  0.0      0     0 ?        S<   Sep10   0:00 [kmpath_rdacd]
+root        40  0.0  0.0      0     0 ?        S<   Sep10   0:00 [kpsmoused]
+root        41  0.0  0.0      0     0 ?        S<   Sep10   0:00 [ipv6_addrconf]
+root        60  0.0  0.0      0     0 ?        S<   Sep10   0:00 [deferwq]
+root        98  0.0  0.0      0     0 ?        S    Sep10   0:00 [kauditd]
+root       218  0.0  0.0      0     0 ?        S<   Sep10   0:00 [ata_sff]
+root       236  0.0  0.0      0     0 ?        S    Sep10   0:00 [scsi_eh_0]
+root       237  0.0  0.0      0     0 ?        S<   Sep10   0:00 [scsi_tmf_0]
+root       238  0.0  0.0      0     0 ?        S    Sep10   0:00 [scsi_eh_1]
+root       239  0.0  0.0      0     0 ?        S<   Sep10   0:00 [scsi_tmf_1]
+root       241  0.0  0.0      0     0 ?        S<   Sep10   0:00 [ttm_swap]
+root       253  0.0  0.0      0     0 ?        S<   Sep10   0:04 [kworker/0:1H]
+root       258  0.0  0.0      0     0 ?        S    Sep10   0:12 [jbd2/vda1-8]
+root       259  0.0  0.0      0     0 ?        S<   Sep10   0:00 [ext4-rsv-conve
+root       328  0.0  0.6  37200  6164 ?        Ss   Sep10   0:07 /usr/lib/system
+root       346  0.0  0.0 114488   304 ?        Ss   Sep10   0:00 /usr/sbin/lvmet
+root       355  0.0  0.0  43616   628 ?        Ss   Sep10   0:00 /usr/lib/system
+root       367  0.0  0.0      0     0 ?        S    Sep10   0:00 [vballoon]
+root       429  0.0  0.0  55448   596 ?        S<sl Sep10   0:00 /sbin/auditd
+dbus       474  0.0  0.0  24408   860 ?        Ss   Sep10   0:03 /bin/dbus-daemo
+polkitd    481  0.0  0.9 527516  9784 ?        Ssl  Sep10   0:01 /usr/lib/polkit
+root       483  0.0  0.1  24188  1052 ?        Ss   Sep10   0:01 /usr/lib/system
+root       487  0.0  0.0  25844   204 ?        Ss   Sep10   0:00 /usr/sbin/atd -
+root       489  0.0  0.0 126220   964 ?        Ss   Sep10   0:00 /usr/sbin/crond
+root       511  0.0  0.0 110032   128 ttyS0    Ss+  Sep10   0:00 /sbin/agetty --
+root       512  0.0  0.0 110032   124 tty1     Ss+  Sep10   0:00 /sbin/agetty --
+root       688  0.0  1.2 113352 12480 ?        Ss   Sep10   0:00 /sbin/dhclient 
+root       749  0.0  1.2 553640 12756 ?        Ssl  Sep10   0:50 /usr/bin/python
+root       753  0.0  0.4 281388  5000 ?        Ssl  Sep10   0:02 /usr/sbin/rsysl
+ntp        772  0.0  0.1  29892  1112 ?        Ss   Sep10   0:02 /usr/sbin/ntpd 
+root       825  0.0  0.2  31628  2380 ?        Ssl  Sep10   2:08 /usr/local/aegi
+mysql      960  0.0  0.0 113248   292 ?        Ss   Sep10   0:00 /bin/sh /usr/bi
+root      1128  0.3  0.7 132044  7880 ?        Ssl  Sep10  27:02 /usr/local/aegi
+root      1195  0.0  0.0 122028   640 ?        Sl   Sep10   3:10 /usr/local/clou
+root      1400  0.6  6.1 2057500 62732 ?       Sl   Sep10  54:56 /usr/local/clou
+mysql     1417  0.0  8.3 1196744 85132 ?       Sl   Sep10   3:07 /usr/libexec/my
+root      2342  0.0  0.1  89524  1204 ?        Ss   Sep10   0:01 /usr/libexec/po
+postfix   2349  0.0  0.1  89696  1020 ?        S    Sep10   0:00 qmgr -l -t unix
+root      2481  0.0  0.1 105984  1224 ?        Ss   Sep10   0:00 /usr/sbin/sshd 
+root      2533  0.0  0.2  65372  2144 ?        Ssl  Sep10   1:25 /usr/sbin/aliyu
+root      2554  0.0  0.0   4324   192 ?        Ss   Sep10   0:04 runsvdir -P /op
+root      2556  0.0  0.0   4172    80 ?        Ss   Sep10   0:00 runsv redis
+root      2557  0.0  0.0   4172    80 ?        Ss   Sep10   0:00 runsv unicorn
+root      2558  0.0  0.0   4172    80 ?        Ss   Sep10   0:00 runsv gitlab-wo
+root      2559  0.0  0.0   4172    80 ?        Ss   Sep10   0:00 runsv redis-exp
+root      2561  0.0  0.0   4172   192 ?        Ss   Sep10   4:10 runsv gitaly
+root      2563  0.0  0.0   4172    80 ?        Ss   Sep10   0:00 runsv logrotate
+root      2564  0.0  0.0   4172    80 ?        Ss   Sep10   0:00 runsv nginx
+root      2565  0.0  0.0   4172    84 ?        Ss   Sep10   0:00 runsv prometheu
+root      2566  0.0  0.0   4172   132 ?        Ss   Sep10   0:00 runsv sidekiq
+root      2567  0.0  0.0   4172   196 ?        Ss   Sep10   4:08 runsv alertmana
+root      2568  0.0  0.0   4172   196 ?        Ss   Sep10   4:10 runsv gitlab-mo
+root      2569  0.0  0.0   4172    84 ?        Ss   Sep10   0:00 runsv node-expo
+root      2570  0.0  0.0   4316   260 ?        S    Sep10   0:00 svlogd -tt /var
+root      2571  0.0  0.0   4316   320 ?        S    Sep10   0:00 svlogd -tt /var
+root      2572  0.0  0.0   4316   172 ?        S    Sep10   0:00 svlogd -tt /var
+root      2577  0.0  0.0   4316   192 ?        S    Sep10   0:00 svlogd -tt /var
+root      2578  0.0  0.0   4316   260 ?        S    Sep10   0:15 svlogd -tt /var
+root      2579  0.0  0.0   4316   272 ?        S    Sep10   0:00 svlogd -tt /var
+root      2580  0.0  0.0   4316    88 ?        S    Sep10   0:00 svlogd -tt /var
+root      2581  0.0  0.0   4316   280 ?        S    Sep10   0:00 svlogd -tt /var
+root      2590  0.0  0.0   4316   332 ?        S    Sep10   0:15 svlogd -tt /var
+root      2591  0.0  0.0   4316   168 ?        S    Sep10   0:00 svlogd -tt /var
+root      2592  0.0  0.0   4316   296 ?        S    Sep10   0:00 svlogd -tt /var
+root      2593  0.0  0.0   4316   332 ?        S    Sep10   0:15 svlogd -tt /var
+root      6961  0.0  0.0      0     0 ?        S    Sep10   0:00 [kworker/u2:2]
+root      7234  0.0  0.0      0     0 ?        S    Sep10   0:09 [kworker/u2:1]
+root      8062  0.0  0.0   4172   436 ?        Ss   Sep10   4:07 runsv postgres-
+root      8063  0.0  0.0   4316   544 ?        S    Sep10   0:16 svlogd -tt /var
+root      8128  0.0  0.0   4172   440 ?        Ss   Sep10   4:59 runsv postgresq
+root      8129  0.0  0.0   4316   548 ?        S    Sep10   0:33 svlogd -tt /var
+postfix  12916  0.0  0.3  89628  3996 ?        S    22:41   0:00 pickup -l -t un
+root     17520  0.0  0.0      0     0 ?        R    Sep12   0:45 [kworker/0:2]
+root     18633  0.0  0.0      0     0 ?        S    23:00   0:00 [kworker/0:0]
+root     20488  0.0  0.5 146184  5740 ?        Ss   23:06   0:00 sshd: root@pts/
+root     20677  0.0  0.2 115380  2080 pts/0    Ss+  23:06   0:00 -bash
+root     23939  1.0  0.5 146184  5744 ?        Ss   23:17   0:00 sshd: root@pts/
+root     23946  0.0  0.2 115380  2060 pts/1    Ss   23:17   0:00 -bash
+root     23964  0.0  0.1 151052  1832 pts/1    R+   23:17   0:00 ps aux
+[root@weixin-go-server ~]# 
