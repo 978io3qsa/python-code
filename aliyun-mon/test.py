@@ -4,6 +4,18 @@ from aliyunsdkcore import client
 from aliyunsdkcms.request.v20180308 import QueryMetricListRequest
 import time
 import json
+import getInstances
+
+
+
+ak, sk, domain = getInstances.getAkSkDomain('aliyun-mon/config.ini')
+
+ecs_dict = getInstances.getECSList('aliyun-mon/config.ini')
+
+print ak,sk,domain
+print ecs_dict
+
+'''
 
 clt = client.AcsClient(
     "LTAIry88qsasWzSD", 
@@ -37,4 +49,4 @@ for item in end_result:
     
     
 
-   
+   '''
